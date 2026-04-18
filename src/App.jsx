@@ -225,7 +225,7 @@ function HeroSection() {
     </section>
   )
 }
-ㄅ
+
 // ─── STARTUP ─────────────────────────────────────────────────────────────────
 function StartupSection() {
   return (
@@ -522,9 +522,6 @@ function Footer() {
     <footer className="py-10 text-center">
       <p className="text-xs text-gray-400">
         © {new Date().getFullYear()} Ren Chen &mdash; Built with React + Vite + Tailwind CSS
-      </p>
-      <p className="text-xs text-gray-400 mt-1">
-        我也是從 Antigravity 製作得，2026年2月
       </p>
     </footer>
   )
